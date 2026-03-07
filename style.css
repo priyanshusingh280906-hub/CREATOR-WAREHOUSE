@@ -10,6 +10,21 @@ body {
     color: #111;
 }
 
+a.hero-btn,
+a.primary-btn,
+a.btn,
+a.btn-light,
+a.btn-dark {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -417,7 +432,7 @@ body {
 
 /* Dark Button */
 .btn-dark {
-  background: #000;
+  background: #f3da99;
   color: #fff;
   padding: 12px 28px;
   border-radius: 8px;
@@ -475,6 +490,7 @@ body {
     border-radius: 10px;
 }
 
+/* Footer */
 .footer {
   background: #f4f4f4;
   padding: 70px 5%;
@@ -517,12 +533,12 @@ body {
   color: #000;
 }
 
-/* Logo Circle */
-.footer-logo {
+/* Logo Company */
+.company-logo {
   margin-bottom: 20px;
 }
 
-.logo-circle {
+.company-logo img {
   width: 50px;
   height: 50px;
   background: #000;

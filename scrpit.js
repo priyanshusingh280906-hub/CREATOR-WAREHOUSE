@@ -26,3 +26,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       ?.scrollIntoView({ behavior: "smooth" });
   });
 });
+
+// Redirect all design buttons
+const designButtons = document.querySelectorAll(
+  ".hero-btn, .primary-btn, .btn, .btn-dark, .btn-light"
+);
+
+designButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    window.location.href = "customizer.html";
+  });
+});
